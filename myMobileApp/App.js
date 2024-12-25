@@ -7,12 +7,14 @@ import Home from './components/Home';
 export default function App() {
   return (
     <PaperProvider>
-      <ScrollView>
-        <View style={styles.container}>
-          <Home />
-          <StatusBar style="auto" />
-        </View>
-      </ScrollView>
+      <SafeAreaView>
+        <ScrollView>
+          <View style={styles.container}>
+            <Home />
+            <StatusBar style="auto" />
+          </View>
+        </ScrollView>
+      </SafeAreaView>
     </PaperProvider>
   );
 }
