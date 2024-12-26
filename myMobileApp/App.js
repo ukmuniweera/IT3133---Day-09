@@ -1,8 +1,7 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, View, ScrollView, KeyboardAvoidingView, Platform } from 'react-native';
-import { PaperProvider, Text, Divider } from 'react-native-paper';
+import { PaperProvider } from 'react-native-paper';
 import { SafeAreaView } from 'react-native-safe-area-context';
-import Home from './components/Home';
 import ContactUs from './components/ContactUs';
 
 export default function App() {
